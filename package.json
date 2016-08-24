@@ -1,0 +1,27 @@
+{
+  "name": "constitubot",
+  "version": "1.0.0",
+  "description": "bot to tweet a chilean constitution article randomly_the goal is to inform about the actual constitution to make the process of create our new constitution a more transparent civic excercise.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "politics",
+    "activism",
+    "chile",
+    "constitution"
+  ],
+  "author": "cris hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "recursive-readdir-sync": "^1.0.6",
+    "twit": "^2.2.4"
+  }
+}
